@@ -1,0 +1,11 @@
+/build/
+/out/
+/dist/
+/.vs/
+/third_party/JUCE/
+/CMakeUserPresets.json
+*.user
+*.suo
+*.obj
+*.pdb
+*.ilk

@@ -1,0 +1,38 @@
+Mini DAW 安装说明
+
+适用：Windows 10 / 11 x64。
+
+安装列表
+  Mini DAW 主程序：必选。
+  Aggregate Audio ASIO：可选，包含驱动、配置程序和诊断工具。
+
+首次安装可选择“推荐安装”。已经安装 Aggregate Audio 时，默认只安装
+Mini DAW；需要重新安装驱动时，可以在组件列表中勾选 Aggregate Audio。
+使用其他 ASIO 驱动时，也可只安装 Mini DAW，再到软件设置中选择驱动。
+
+安装需要管理员权限，包含离线安装所需的 Microsoft Visual C++ x64 运行库。
+升级前请保存工程并退出 Mini DAW。安装或更新 ASIO 时，还需关闭使用
+Aggregate Audio 的其他 DAW、配置程序及诊断工具。
+
+首次使用
+  1. 如选择安装 ASIO，在安装完成页打开 Aggregate Audio 配置程序。
+  2. 勾选需要的输入、输出声道，设置采样率和缓冲区，保存配置。
+  3. 启动 Mini DAW，选择各通道的输入和输出，加载需要的效果插件。
+
+Mini DAW 默认使用 Aggregate Audio，也支持其他已安装的 64 位 ASIO 驱动。
+设备断开时保留绑定名称，再次接入后自动恢复，也可手动切换。
+Windows 平板可长按通道或插件槽约 650 毫秒打开右键菜单。发送旋钮按住
+约 350 毫秒打开菜单，继续按住至约 850 毫秒收起菜单并进入浮动拖动。
+
+卸载
+  Mini DAW 和 Aggregate Audio 分别显示在 Windows“已安装的应用”中。
+  卸载 Mini DAW 保留 Aggregate Audio 驱动，避免影响其他 DAW。
+  如需删除驱动，请单独卸载 Aggregate Audio。
+  两者卸载都保留个人工程和音频设置，共享 Visual C++ 运行库也会保留。
+
+个人设置位置
+  Mini DAW：%APPDATA%\MiniDAW
+  Aggregate Audio：%LOCALAPPDATA%\AggregateASIO
+
+powered by WanAn522z
+https://github.com/WanAn522z

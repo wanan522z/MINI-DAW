@@ -1,0 +1,1 @@
+VST2 interface headers from https://github.com/R-Tur/VST_SDK_2.4/tree/4610873fa433d263a5c4a68b5b8b59ffcf6ca6db. Original copyright and license notices are preserved in each header. Only the two ABI headers needed by the JUCE VST2 host are included.

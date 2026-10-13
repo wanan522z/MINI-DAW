@@ -1,0 +1,24 @@
+Mini DAW dependency notices
+
+JUCE 8.0.12
+https://github.com/juce-framework/JUCE
+The original JUCE licence overview and bundled dependency licences are
+included in the installed licenses directory. JUCE offers AGPLv3 and
+commercial licensing; these notices do not select a product licence.
+
+Microsoft Visual C++ 2015-2022 Redistributable (x64)
+Copyright Microsoft Corporation.
+The unchanged Microsoft-signed installer is embedded for offline installation.
+Its installer applies Microsoft's runtime licence terms. The shared runtime
+is not removed when Mini DAW is uninstalled.
+
+Aggregate Audio ASIO (optional component)
+https://github.com/wanan522z/AggregateAudio-asio
+The original Aggregate Audio Setup is embedded unchanged and installs its
+own third-party notices, SDK licences and independent uninstall entry.
+
+Inno Setup 7.1.0
+Copyright (C) 1997-2026 Jordan Russell. All rights reserved.
+Portions Copyright (C) 2000-2026 Martijn Laan. All rights reserved.
+https://www.innosetup.com/
+The original Inno Setup licence is included in the licenses directory.
